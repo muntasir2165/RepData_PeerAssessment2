@@ -286,7 +286,7 @@ labels <- paste(X$weather, "\n", X$injuryFatalityTotal)
 pie3D(X$injuryFatalityTotal, labels = labels, main="Consequences to Human Health and Lives\n due to the Top 5 Weather Events", labelcex=1.2)
 ```
 
-[plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17.png) 
+![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17.png) 
 
 **Based on the numbers above, the most devastating / harmful events for the
 human health are tornadoes, followd by floods, others, storms, and lastly, hurricanes.**  
@@ -310,7 +310,7 @@ labels <- paste(Y$weather, "\n", damageInTrillions)
 pie3D(damageInTrillions, labels = labels, main="Consequences of the Top 5\n Weather Events on the Economy (in Trillions of Dollars)", labelcex=1.2)
 ```
 
-[plot of chunk unnamed-chunk-18](figure/unnamed-chunk-18.png) 
+![plot of chunk unnamed-chunk-18](figure/unnamed-chunk-18.png) 
 
 **Based on the numbers above, the most costly / economically consequential events are floods, followd by storms, hails, others, and lastly, tornadoes.**   
 Please note that "other" includes a variety of weather events that were not categorized into specific events due to the data analysts lack of skills in doing so.
@@ -328,7 +328,7 @@ labels <- paste(Z$weather, "\n", Z$incidentCount)
 pie3D(Z$incidentCount, labels = labels, main="5 Highest Occuring Weather Events in the\n United States between 1950 and 2011", labelcex=1.2)
 ```
 
-[plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19.png) 
+![plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19.png) 
 
 **Based on the numbers above, the events that happened the most in the past are storms, followd by hails, floods, others, and lastly, tornadoes.**   
 Please note that "other" includes a variety of weather events that were not categorized into specific events due to the data analysts lack of skills in doing so.
