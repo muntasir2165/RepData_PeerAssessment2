@@ -1,4 +1,4 @@
-#set the working directory to be the course project 2 folder
+#set the working directory to be the Course Project 2 folder
 setwd("~/Desktop/Online/OWinter Term 2014/Reproducible Research/Course Projects/Course Project 2")
 
 #install.packages("R.cache")
